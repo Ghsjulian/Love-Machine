@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Web Designer Ghs Julian | Love Calculator Machine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+ 
+<!-- partial:index.partial.html -->
+<div class="container">
+	<div class=" clearfix">
+		<div class="calc col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+		    
+		    <center>
+				<h2>Love Calculator</h2>
+				<h5>If You Love 💕 Someone , Please Enter Him/Her Name Bellow...</h5>
+            </center>
+				<center><form name="myfrm" action="calculate.php" method="POST">
+				   
+				      
+				      <br>
+ <b>  </b><select placeholder="Select Your Gender" class="form-control" name="gender">
+      <option class="rdo" value="Gender">Select Your Gender</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+</select>
+  <div class="err" id="err"></div>
+               <br>   
+  
+<br>
+						<div class="form-group">
+								<input type="text" class="form-control" name="fname" placeholder="Enter Your Name..."/>
+								<div class="err" id="fname"></div>
+						</div>
+						<br>
+						<div class="form-group">
+								<input type="text" class="form-control" name="lname" placeholder="Enter Your Lovers Name..."/>
+								<div class="err" id="lname"></div>
+						</div>
+						<br>
+						<div class="form-group">
+								<input class="btn" type="submit" id="submit" value="Submit" name="submit_btn" onclick="return ghs()">
+						</div>
+                    </form>
+				<br>
+				
+        </div>
+		</div>
+	</div>
+</div>
+<!-- partial -->
+  <script  src="./validation.js"></script>
+</body>
+</html>

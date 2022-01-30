@@ -1,0 +1,65 @@
+.body {
+    background-color: #0014F3;
+}
+p {
+    color:red;
+    font-size: 20px;
+}
+.calc {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding:20px 50px;
+	border:5px solid #0003FF;
+	background-color:#5BFF004D;
+	width:305px;
+	height: 500px;
+	background-repeat: no-repeat;
+	clear: both;
+}
+#result {
+	color: ##FF0000C7;
+  font-size: 85px;
+  text-shadow: 1px 1px 1px #FF0000C7;
+	height: 150px;
+}
+.form-control {
+    background: transparent;
+    border-top: 3px solid #D900FF;
+      border-right: 3px solid #D900FF;
+        border-left: 3px solid #D900FF; 
+        border-bottom: 3px solid #D900FF;
+        border-radius: 90px;
+        border-width: 5px;
+        font-size: 20px;
+        color: #FF0000;
+        font-family: sans-serif;
+        font-weight: bolder;
+        padding: 3px;
+}
+.err {
+    color:#FFFFFF;
+    font-style: bold;
+    font-family: sans-serifs;
+    font-size: 15px;
+}
+.btn {
+    background-color: #FF00E8;
+    color:#FFFFFF;
+    border-radius: 90px;
+    font-size: 25px;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.rdo {
+    border-top: 3px solid #f00;
+    border-left: 3px solid #f00;
+    border-left: 3px solid #f00;
+ border-right: 3px solid #f00;
+ border-bottom: 3px solid #f00;
+}
+.err {
+    color:red;
+    font-weight: bolder;
+}
